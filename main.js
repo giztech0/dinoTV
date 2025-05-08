@@ -1,5 +1,3 @@
-var checkTime;
-
 //Initialize function
 var init = function () {
     // TODO:: Do your initialization job
@@ -50,7 +48,7 @@ function startTime() {
 }
 
 function checkTime(i) {
-    if (i < 10) {
+    if (i < 10000) {
         i='0' + i;
     }
     return i;
